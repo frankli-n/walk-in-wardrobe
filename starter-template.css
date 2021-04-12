@@ -1,13 +1,40 @@
 
 
-body {
+#left-square {
   padding-top: 5rem;
-  background-image: url('pics/cover.png');
-  background-size: 100vw;
+  background-image: url('pics/apology.png');
+  height: 20vw;
+  background-size: 20vw;
   background-repeat: no-repeat;
-
+  /*border-color: black;*/
+  /*background-position: center;*/
+  /*background-position: 0px 0px; */
 
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.row {
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  height: 100vh
+  
+}
+/* Clear floats after image containers */
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
 
 .starter-template {
   padding: 3rem 1.5rem;
