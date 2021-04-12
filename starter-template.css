@@ -2,8 +2,10 @@
 
 body {
   padding-top: 5rem;
-  background-image: url('pics/vancouver.jpg');
-  background-size: cover;
+  background-image: url('pics/cover.png');
+  background-size: 100vw;
+  background-repeat: no-repeat;
+
 
 }
 
