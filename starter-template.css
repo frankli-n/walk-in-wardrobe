@@ -20,15 +20,66 @@
   padding: 0px;
 }
 
+.col-sm-4 {
+/*background-color: green;*/
+/*margin:10px;*/
+}
+
+.col-sm-4  img {
+	 max-width: 150px;
+ 	max-height: 250px;
+
+}
+
+li {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#left {
+  background-image: url('pics/apology.png');
+  width: 50%;
+  overflow: hidden;
+  background-size: 100%;
+  padding: 0px;
+}
+
+#right {
+  background-color: #111;
+
+/*  width: 50%;
+  overflow: hidden;
+  background-size: 125%;
+  padding: 0px;*/
+}
+
+h1 {
+  padding-top: 50px;
+  color: White;
+  font-weight: bold;
+  font-family: Helvetica, Sans-Serif;
+}
+
+p {
+  color: White;
+  font-family: Helvetica, Sans-Serif;
+  padding: 50px;
+}
+
 .row {
   height: 100vh;
   overflow: hidden;
 }
 
-video {
-  height: 100vh
-  
+.spotify {
+  position: relative;
+  top: 60%;
+  left: 15px;
+
 }
+
+
 /* Clear floats after image containers */
 /*.row::after {
   content: "";
