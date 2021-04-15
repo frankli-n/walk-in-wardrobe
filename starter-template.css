@@ -112,12 +112,17 @@ p {
 
 .spotify {
   position: relative;
-  top: 60%;
+  top: 30%;
   left: 15px;
-
 }
 
-
+/*
+@media (max-width: 600px) {
+.spotify {
+  padding-left: 10px;
+  padding-right: 1000px;
+}
+}*/
 /* Clear floats after image containers */
 /*.row::after {
   content: "";
