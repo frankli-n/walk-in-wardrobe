@@ -20,22 +20,53 @@
   padding: 0px;
 }
 
-.col-sm-4 {
-/*background-color: green;*/
-/*margin:10px;*/
-}
-
-.col-sm-4  img {
-	 max-width: 150px;
- 	max-height: 250px;
-
-}
-
 li {
-	position: absolute;
-	top: 20px;
-	right: 20px;
+	/*position: absolute;*/
+	float:right;
+  padding-top: 50px;
+  padding-right: 5px;
+  list-style-type: none;
 }
+
+.icons {
+  padding-right: 45px;
+}
+
+.container {
+/*  border-style: solid;
+  border-color: red;*/
+  padding-left: 45px;
+  padding-right: 45px;
+  height: 150px;
+
+}
+
+.col-sm {
+  /*background-color: green;*/
+  /*border-color: blue;*/
+  /*border-style: solid;*/
+  /*margin: 10px;*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 120px;
+  overflow-y: hidden;
+  /*margin-bottom: 70px;*/
+}
+
+.col-sm:hover {
+  opacity: 50%;
+}
+
+.col-sm img {
+  width: 100%;
+  /*padding: 1px;*/
+}
+
+#musks img{
+  position: relative;
+  top: -55px;
+}
+
 
 #left {
   background-image: url('pics/apology.png');
@@ -47,6 +78,7 @@ li {
 
 #right {
   background-color: #111;
+  text-align: left;
 
 /*  width: 50%;
   overflow: hidden;
@@ -59,6 +91,7 @@ h1 {
   color: White;
   font-weight: bold;
   font-family: Helvetica, Sans-Serif;
+  padding-left: 50px;
 }
 
 p {
@@ -67,10 +100,7 @@ p {
   padding: 50px;
 }
 
-.row {
-  height: 100vh;
-  overflow: hidden;
-}
+
 
 .spotify {
   position: relative;
