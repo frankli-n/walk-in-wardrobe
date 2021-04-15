@@ -59,14 +59,16 @@ li {
 
 .col-sm img {
   width: 100%;
+  overflow: hidden;
+  /*height: 200px;*/
   /*padding: 1px;*/
 }
-
+/*
 #musks img{
   position: relative;
   top: -55px;
 }
-
+*/
 
 #left {
   background-image: url('pics/apology.png');
@@ -88,10 +90,16 @@ li {
 
 h1 {
   padding-top: 50px;
-  color: White;
+  color: white;
   font-weight: bold;
   font-family: Helvetica, Sans-Serif;
   padding-left: 50px;
+}
+
+@media (max-width: 891px) {
+h1 {
+  font-size: 150%;
+}
 }
 
 p {
